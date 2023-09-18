@@ -6,7 +6,7 @@ import errorhandler
 from tso_iso_checker import run_checks_tso_iso
 from tic_fic_checker import run_checks_tic_fic
 from pr_checker import run_checks_pr
-from utils import log_std_error, log_esp_error, log_warning
+from utils import log_std_error  , log_esp_error, log_warning
 
 if __name__ == "__main__":
     error_handler = errorhandler.ErrorHandler()
